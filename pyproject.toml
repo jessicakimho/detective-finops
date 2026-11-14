@@ -1,0 +1,11 @@
+[project]
+name = "gpu-finops-detective"
+version = "0.1.0"
+description = "Local, reproducible GPU billing and telemetry fixtures for a FinOps detective."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false
+

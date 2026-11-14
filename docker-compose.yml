@@ -1,0 +1,7 @@
+services:
+  demo:
+    build: .
+    volumes:
+      - ./data/generated:/app/data/generated
+    network_mode: none
+
